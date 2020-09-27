@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
+
 int main() {
 	setlocale(LC_ALL, "Russian");
 	int i, j, k, a[2][3], b[3][2], c[2][2] = {0};
