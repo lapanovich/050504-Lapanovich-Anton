@@ -27,9 +27,8 @@ int main() {
 		}
 	} printf_s("Произведение матриц равно:\n");
 	for (i = 0; i < str1; i++) {
-		for (j = 0; j < stolb2; j++) {
-			printf_s("%d\t", c[i][j]);
-		} printf_s("\n");
-	}
-	return 0;
+		for (j = 0; j < stolb2; j++) printf_s("%d\t", c[i][j]);
+		printf_s("\n");
+	}    
+	     return 0;
 }
