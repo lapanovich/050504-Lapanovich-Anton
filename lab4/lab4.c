@@ -23,7 +23,7 @@ int main() {
 		for (j = 0; j < n; j++) {
 			if (ms[j] == 0) continue;
 			else if (j <= i) continue;    
-			else if (ms[j] % ms[i] == 0) ms[j] = 0;    // отбор чисел согласно Решето Эратосфена
+			else if (ms[j] % ms[i] == 0) ms[j] = 0;    // отбор чисел согласно Решето Эратосфена, заполнение нулями
 		}
 	}
 	for (i = 0; i < n; i++) {
