@@ -19,6 +19,7 @@ int main() {
 
 	for (i = 0; i < n; i++) {
 		if (ms[i] == 0) continue;
+
 		for (j = 0; j < n; j++) {
 			if (ms[j] == 0) continue;
 			else if (j <= i) continue;    
