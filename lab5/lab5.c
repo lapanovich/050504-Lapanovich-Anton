@@ -34,6 +34,9 @@ int main() {
     }
     printf_s("\n");
 
+    for (i = 0; i < n; i++) free(arr[i]);
+    free(arr);
+
     getchar();    getchar();    // убирает информацию о возвращении 0
     return 0;
 }
